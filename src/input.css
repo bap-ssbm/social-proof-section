@@ -18,12 +18,15 @@
     color:hsl(303, 10%, 53%);
 }
 .w-1000{
+    min-width:1000px;
+}
+.h-250{
+    height:310px;
+}
+.w-1000{
     width:1000px;
 }
 
-.h-250{
-    height:250px;
-}
 @media (max-width:768px) {
     .w-1000{
         width:100%;
