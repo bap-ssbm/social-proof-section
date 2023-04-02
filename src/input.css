@@ -17,9 +17,7 @@
 .text-dark-magenta{
     color:hsl(303, 10%, 53%);
 }
-.w-1000{
-    min-width:1000px;
-}
+
 .h-250{
     height:290px;
 }
@@ -29,7 +27,7 @@
 
 @media (max-width:768px) {
     .w-1000{
-        min-width:100%;
+        width:100%;
     }
     .h-250{
         height:auto;
