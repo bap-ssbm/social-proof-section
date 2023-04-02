@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-magenta{
+    color: hsl(300, 43%, 22%);
+}
+.bg-magenta{
+    background-color: hsl(300, 43%, 22%);
+}
+.text-soft-pink{
+    color: hsl(333, 80%, 67%);
+}
+.bg-light-magenta{
+    background-color: hsl(300, 24%, 96%);
+}
+.text-dark-magenta{
+    color:hsl(303, 10%, 53%);
+}
+.w-1000{
+    width:1000px;
+}
+
+.h-250{
+    height:250px;
+}
+@media (max-width:768px) {
+    .w-1000{
+        width:100%;
+    }
+    .h-250{
+        height:auto;
+    }
+    
+}
+
+main{
+    background-image: url(../images/bg-pattern-bottom-desktop.svg);
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+    main{
+        background-image: url(../images/bg-pattern-bottom-mobile.svg);
+        background-size: contain;
+    }
+}
